@@ -4,7 +4,6 @@ import dotenv from "dotenv"
 import { AppDataSource } from "./data-source";
 import router from "./routes/car.route";
 
-dotenv.config();
 
 AppDataSource.initialize()
 .then(() => console.log("Database is connecting!"))
