@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    background-color: goldenrod;
+}
+
+.header nav ul{
+    font-size: 1.2em;
+    width: 20em;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.logo {
+    width: 30em;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.logo h1 {
+    margin-left: 0.3em;
+}
+
+.logo img {
+    width: 5em;
+}
+
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    font-size: 1em;
+    height: 3em;
+    width: 6em;
+    font-weight: 200;
+    font-family: inherit;
+    background-color: #717171;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
